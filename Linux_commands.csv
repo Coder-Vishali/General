@@ -1,0 +1,39 @@
+﻿Linux Commands,
+du -hs <folder_name>,To check space for a particular folder
+zip -r folders.zip folder_1,To zip all files
+df -h,To check the space of a system
+netstat -lnp,Active internet connection
+"uname -r
+cat /etc/os-release",To check the details of os and its distribution
+sudo deluser <username>,Delete a username
+rmdir or rm -d,To remove empty directories.
+rm -r,To remove non-empty directories. 
+sudo kill -9 $(sudo lsof -t -i:5004)  ,
+rm -f,To remove a file
+stat file  ,To know date and time of the file creation
+netstat -nlp | grep 8080 ,To know what is running in that port
+sshpass -p 'pass!' ssh username@hostname test -f '/home/path/best.pt',File existance check
+df -hT | grep /$,To find root location and space
+find / -iname 'book1*' ,Find where the files is eg: find / -iname 'cacerts'  
+setsid script.sh,To run shell script in background
+"readlink -f /usr/bin/java | sed ""s:bin/java::""",To find the location of java home
+sudo fdisk -l,From a command line you could use fdisk -l to list your drives.
+lsblk,To know the mount points
+apt install --only-upgrade sudo ,Upgrade sudo
+udisksctl mount -b /dev/sdb2,To know the path of the HDD device
+sudo mount /dev/sdb2 /media/ ,setting the path to HDD
+"scp username@hostname:/home/ . 
+scp -r ./Action/ user@hn:/dev/  ",sudo cp -r ./jenkinsdata/* ./jenkinsdata_datafetch/  
+pscp.exe -r C:\Users\test.pb user@hostname:/home/folder  ,
+"curl -v -X GET -u 'admin:1234' http://""  ","To know build status, To create a build using curl command"
+"curl -L --user $USERNAME:$LOGIN_API_TOKEN ""$JENKINS_URL/job/JobName/buildWithParameters?token=$JOB_TOKEN&param1_name=$PARAM1_VALUE&param2_name=$PARAM2_VALUE""  ",
+"curl -L --user $USERNAME:$LOGIN_API_TOKEN ""$JENKINS_URL/job/JobName/buildWithParameters?token=$JOB_TOKEN&param1_name=$PARAM1_VALUE&param2_name=$PARAM2_VALUE""  ",
+"curl -u 'admin:1234' http://ipaddress:8080/job/sample/buildWithParameters?token=tokenname&X=10&Y=20 ",
+"curl -u 'admin:1234' http://ipaddress:8080/job/Dataset/build?token=tokenname",
+tar -xvf   ,To extract tar files
+ls | wc -l  ,To count the files 
+nvidia-smi  ,
+ffmpeg -hwaccel cuda -i /media/,
+pip install -r requirements.txt --proxy http://proxy  ,
+free -g -h -t,To check the RAM size.
+"lspci | grep ' VGA ' | cut -d"" "" -f 1 | xargs -i lspci -v -s {}",GPU information
