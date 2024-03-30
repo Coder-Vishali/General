@@ -1,0 +1,16 @@
+﻿Topic,Reference
+Finetune LLM ,https://learn.deeplearning.ai/finetuning-large-language-models/lesson/1/introduction
+Transformer Paper ,https://arxiv.org/pdf/2109.10282.pdf
+Why Transformer OCR?  ,https://github.com/NielsRogge/Transformers-Tutorials/tree/master/TrOCR
+TrOCR - Neils Rogge - Transformers Tutorials - ,Fine tune TrOCR on IAM Handwriting Database using native Pytorch.ipynb  
+Demo  ,https://huggingface.co/docs/transformers/model_doc/trocr
+Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning,https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Improving_Visual_Grounding_With_Visual-Linguistic_Verification_and_Iterative_Reasoning_CVPR_2022_paper.pdf
+Grounding Language Models to Images for Multimodal Inputs and Outputs ,https://arxiv.org/pdf/2301.13823.pdf
+Jing Yu Koh | Grounding Language Models to Images for Multimodal Generation,"https://www.google.com/search?q=visual+groudning+with+large+lanugae+models&sca_esv=568551326&rlz=1C1GCEA_enIN1034IN1034&sxsrf=AM9HkKlG4Ispifhe__EU0TeKdGneDWL5jA%3A1695753429773&ei=1SQTZYLbLsy7qtsPlqaXwAQ&ved=0ahUKEwjCmbvm9ciBAxXMnWoFHRbTBUgQ4dUDCBA&uact=5&oq=visual+groudning+with+large+lanugae+models&gs_lp=Egxnd3Mtd2l6LXNlcnAiKnZpc3VhbCBncm91ZG5pbmcgd2l0aCBsYXJnZSBsYW51Z2FlIG1vZGVsczIHECEYqwIYCjIHECEYqwIYCjIHECEYqwIYCkizb1AAWNNtcAN4AZABAJgB3gGgAdUmqgEGMC4yOS4zuAEDyAEA-AEBwgIHEAAYDRiABMICBxAjGLACGCfCAgYQABgWGB7CAggQABgIGB4YDcICCBAAGIoFGIYDwgIKECEYFhgeGB0YCsICBxAhGKABGArCAgUQABiiBMICCBAhGBYYHhgdwgIKECEYFhgeGA8YHcICBRAhGKsC4gMEGAAgQYgGAQ&sclient=gws-wiz-serp#fpstate=ive&vld=cid:4d8d2fe6,vid:WNIjb96GvxU,st:25"
+Grounding LLMs,https://techcommunity.microsoft.com/t5/fasttrack-for-azure/grounding-llms/ba-p/3843857
+How data engineering works?,https://www.youtube.com/watch?v=qWru-b6m030
+Image annotations,https://www.cloudfactory.com/image-annotation-guide
+Robot Framework  ,https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+"Recall, precision and accuracy",https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall
+Robot Interface,https://github.com/robotframework/RemoteInterface
+To find the rotation of two images  ,https://stackoverflow.com/questions/73886870/what-is-the-simplest-way-to-detect-the-angle-of-rotation-between-two-images-of-t
