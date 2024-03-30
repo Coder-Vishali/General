@@ -1,0 +1,56 @@
+﻿Git comamnds,
+https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository  ,Getting started with Git
+https://opensource.com/article/20/7/git-best-practices ,Best practice
+"git config --global user.email """"  
+git config --global user.name ""vishali"" ",Configuration
+"git init
+git remote add origin https://aaaaaa.git
+git add --all
+git commit -m """"Added-files""""
+git push -u origin HEAD:master",
+git config --global http.sslverify false  ,
+git config --global http.proxy  ,
+"git config --global --list  
+git config --unset---global http.proxy  
+git config --unset --global https.proxy  
+git config --global http.proxy http://  
+git config --global https.proxy http:// ",
+git config --global --add safe.directory '*'  ,Silence all safe directory warning
+git clone -b vishali -c http.sslVerify=false https://aa.git ,
+git clone -c http.sslVerify=false https://aaaaa.git  ,
+"git remote add origin user@hostname:/localgitpath.git 
+git remote add origin https://aa.git ","git remote add origin  
+"
+git config --get remote.origin.url  ,
+git remote remove origin,To remove remote url
+git branch -m <name>  ,git branch -m vishali 
+git config --global init.defaultBranch <name>,"To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>"
+git branch -r,To see all remote branches
+git branch -a,To see all branches
+git push origin vishali  ,
+git request-pull' [-p] <start> <url> [<end>],https://git-scm.com/docs/git-request-pull
+git show -s --format=%s ,
+git pull origin master  ,
+git config --global --unset credential.helper,ERROR: Error fetching remote repo 'origin'
+git config --system --unset credential.helper ,
+sudo git remote add upstream https://aaa.git,
+git config pull.rebase false,"merge (the default strategy)
+ 
+hint:   git config pull.rebase true   # rebase
+ 
+hint:   git config pull.ff only       # fast-forward only"""
+"git pull upstream master
+ 
+git pull upstream HEAD:master
+ 
+git pull origin master",
+git checkout -b branch_name,Git checkout specific branch
+git switch branch_name,"Switch the branch
+git checkout feature/apple"
+git pull remote-name branch-name,To pull in the latest update
+git fetch –all  ,
+git rev-parse --abbrev-ref HEAD,To know about in which branch you are currently on
+svn checkout,
